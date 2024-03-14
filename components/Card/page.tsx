@@ -6,6 +6,10 @@ import {
   CardHeader,
   CardTitle,
 } from "@/components/ui/card";
+import { Button } from "@/components/ui/button"
+import { Input } from "@/components/ui/input"
+
+
 
 export default function CardBox() {
   return (
@@ -16,6 +20,9 @@ export default function CardBox() {
       </CardHeader>
       <CardContent>
         <p>Card Content</p>
+        <Input  className="mt-5"/>
+        <Button variant="outline" className="mt-5">Button</Button>
+
       </CardContent>
       <CardFooter>
         <p>Card Footer</p>
