@@ -1,6 +1,6 @@
 export default function TypographyDemo() {
     return (
-      <div className="px-2 md:px-10 pt-20">
+      <div className="px-2  pt-20 container">
         <h1 className="scroll-m-20 text-4xl font-extrabold tracking-tight lg:text-5xl">
           The Joke Tax Chronicles
         </h1>

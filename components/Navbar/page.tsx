@@ -29,10 +29,10 @@ export default function NavigationMenuDemo() {
   }, [])
 
   return (
-    <div className="justify-between flex items-center mt-10 w-full px-10">
-      <div className="text-4xl font-extrabold tracking-tight lg:text-5xl text-purple-900">Random Logo</div>
+    <div className="justify-between flex items-center mt-10 container">
+      <div className="text-4xl font-extrabold tracking-tight lg:text-5xl text-purple-900 hidden md:block">Random Logo</div>
     <NavigationMenu className="flex justify-between">
-      <NavigationMenuList>
+      <NavigationMenuList className="hidden md:block">
         <NavigationMenuItem>
           <NavigationMenuTrigger>Drop down links</NavigationMenuTrigger>
           <NavigationMenuContent >
